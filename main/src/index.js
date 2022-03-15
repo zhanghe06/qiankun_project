@@ -26,12 +26,12 @@ registerMicroApps([
     container: '#container',
     activeRule: '/app/vue',
   },
-  {
-    name: 'app_angular',
-    entry: '//localhost:4200',
-    container: '#container',
-    activeRule: '/app/angular',
-  },
+  // {
+  //   name: 'app_angular',
+  //   entry: '//localhost:4200',
+  //   container: '#container',
+  //   activeRule: '/app/angular',
+  // },
 ]);
 
 start();

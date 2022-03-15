@@ -125,19 +125,6 @@ export async function update(props) {
 }
 ```
 
-webpack.config.js.bak
-```
-const packageName = require('./package.json').name;
-
-module.exports = {
-  output: {
-    library: `${packageName}-[name]`,
-    libraryTarget: 'umd',
-    jsonpFunction: `webpackJsonp_${packageName}`,
-  },
-};
-```
-
 三、微应用（app_vue）
 
 版本：vue2
