@@ -5,12 +5,12 @@ function Demo() {
   return (
     // 添加路由的话 需要修改baseurl
     <div>
-      <h1>React App</h1>
+      <h2>React App</h2>
       <Router basename={window.__POWERED_BY_QIANKUN__ ? '/app/react' : '/'}>
         <Link to='/'>Home</Link> | <Link to='/abort'>About</Link>
-        <Route path='/' exact component={() => (<h1>Home</h1>)}>
+        <Route path='/' exact component={() => (<h3>React Home Page</h3>)}>
         </Route>
-        <Route path='/abort' component={() => (<h1>About</h1>)}>
+        <Route path='/abort' component={() => (<h3>React About Page</h3>)}>
         </Route>
       </Router>
     </div>

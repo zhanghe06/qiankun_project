@@ -1,6 +1,7 @@
 <template>
-  <div id="app">
-    <h1>VUE APP</h1>
+  <div>
+    <h2>VUE APP</h2>
+    <router-link to="/">Home</router-link> | <router-link to="about">About</router-link>
     <router-view/>
   </div>
 </template>

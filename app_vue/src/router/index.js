@@ -1,6 +1,6 @@
 // const NotFound = {template: '<p>Page not found</p>'}
-const Home = {template: '<p>home page</p>'}
-const About = {template: '<p>about page</p>'}
+const Home = {template: '<h3>VUE Home Page</h3>'}
+const About = {template: '<h3>VUE About Page</h3>'}
 
 const routes = [
   {
