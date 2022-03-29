@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2>VUE APP</h2>
+    <h2 class="Demo">VUE APP</h2>
     <router-link to="/">Home</router-link> | <router-link to="about">About</router-link>
     <router-view/>
   </div>
@@ -13,5 +13,7 @@ export default {
 </script>
 
 <style scoped>
-
+  .Demo {
+    color: #00ffff;
+  }
 </style>

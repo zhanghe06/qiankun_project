@@ -41,5 +41,6 @@
   },
   "devDependencies": {
     "@rescripts/cli": "0.0.16"
-  }
+  },
+  "homepage": "."
 }

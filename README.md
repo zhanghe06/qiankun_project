@@ -6,7 +6,7 @@
 
 以react为基座：
 
-一、主应用（main）
+一、[主应用（main）](http://localhost:3080)
 
 1. 安装 qiankun
 ```
@@ -54,7 +54,7 @@ src/App.js
 npm start
 ```
 
-二、微应用（app_react）
+二、[微应用（app_react）](http://localhost:3000)
 
 ```
 npx create-react-app app_react
@@ -125,7 +125,7 @@ export async function update(props) {
 }
 ```
 
-三、微应用（app_vue）
+三、[微应用（app_vue）](http://localhost:8080)
 
 版本：vue2
 
@@ -136,3 +136,13 @@ npm i vue-router@3 -S
 
 npm run serve
 ```
+
+四、配置
+
+package.json
+- `__webpack_public_path__`
+- `homepage`
+
+样式：
+- app_react
+- app_vue 需要设置scoped，不影响基座样式
