@@ -139,10 +139,21 @@ npm run serve
 
 四、配置
 
+编译：
+
 package.json
 - `__webpack_public_path__`
 - `homepage`
 
 样式：
-- app_react
-- app_vue 需要设置scoped，不影响基座样式
+
+基座启动时，需要开启沙箱
+```
+start(
+  {
+    sandbox: {
+      experimentalStyleIsolation: true
+    }
+  }
+);
+```
